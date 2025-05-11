@@ -8,11 +8,13 @@ public class AuthUser {
 
     private final Long id;
     private final String email;
+    private final String nickname;
     private final UserRole userRole;
 
     public AuthUser(Long id, String email, UserRole userRole) {
         this.id = id;
         this.email = email;
+        this.nickname = email;
         this.userRole = userRole;
     }
 }
